@@ -1,4 +1,4 @@
-# 使用Heroku部署高性能代理服务，通过ws传输的vmess vless trojan shadowsocks socks等协议 
+# 使用Heroku部署Xray高性能代理服务，通过ws传输的 (vmess、vless、trojan shadowsocks、socks)等协议
 
 > 提醒： 滥用可能导致账户被BAN！！！ 
 
@@ -16,7 +16,7 @@ vless 性能更加优秀，占用资源更少。
 
 本镜像不会因为大量占用资源而被封号。注册好Heroku账号并登录后,点击下面按钮便可部署.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/leyounet/XrayHeroku) 
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/Lbingyi/HerokuXray) 
 
 ### 服务端
 点击上面紫色`Deploy to Heroku`，会跳转到heroku app创建页面，填上app的名字、选择节点、按需修改部分参数和AUUID后点击下面deploy创建app即可开始部署  
@@ -31,7 +31,7 @@ vless 性能更加优秀，占用资源更少。
 
 **XRay 将在部署时会自动实配安装`最新版本`。**
 
-**出于安全考量，除非使用 CDN，否则请不要使用自定义域名，而使用 Heroku 分配的二级域名，以实现 XRay Websocket + TLS。**
+**出于安全考量，除非使用 CDN，否则请不要使用自定义域名，而使用 Heroku 分配的二级域名，以实现 XRay vless Websocket + TLS。**
 
 <details>
 <summary>xray</summary>
